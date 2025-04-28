@@ -1,0 +1,197 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #19c3e1;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li {
+  display: inline-block;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('assets/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+/* About Section */
+.about {
+  background-color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Rooms Section */
+.rooms {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.rooms h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.room-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.room {
+  background-color: white;
+  width: 30%;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.room img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.room h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Booking Section */
+.book {
+  background-color: #333;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.book h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.book form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.book input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.book button {
+  padding: 12px;
+  background-color: #f2a900;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book button:hover {
+  background-color: #e08900;
+}
+
+/* Contact Section */
+.contact {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
